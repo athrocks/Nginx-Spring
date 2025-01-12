@@ -39,6 +39,10 @@ project
 ## How to Run
 ### 1. Build and Start the Services
 ```bash
+mvn clean install # to install .jar files
+```
+
+```bash
 docker-compose up --build
 ```
 
